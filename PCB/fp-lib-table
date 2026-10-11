@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "EasyEDA_Imported")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA_Imported.pretty")(options "")(descr "Footprints imported from EasyEDA/LCSC"))
+  (lib (name "RaspberryPi_Official")(type "KiCad")(uri "${KIPRJMOD}/RaspberryPi_Official.pretty")(options "")(descr "Footprints exported from the official Raspberry Pi RP2350 Minimal KiCad PCB"))
+  (lib (name "leo/kicad_vari")(type "KiCad")(uri "${KIPRJMOD}/Header_Original.pretty")(options "")(descr "Original custom 1x20 header footprints used by this PCB"))
+)

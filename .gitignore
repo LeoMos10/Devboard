@@ -1,43 +1,39 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
+# KiCad local and backup files
+*.kicad_prl
+*.lck
+*.kicad_sch-bak*
+*.kicad_pcb-bak*
 *.000
 *.bak
 *.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
 *-bak
 *-bak*
+*-backups/
+*-cache*
+.history/
+fp-info-cache
 *~
 ~*
 _autosave-*
-\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
-~*.lck
-\#auto_saved_files#
-
-# Netlist files (exported from Eeschema)
 *.net
-
-# Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+# Python firmware cache
+__pycache__/
+*.pyc
 
-# Local git-based history (KiCad 9.0+)
-.history
+# KiCad fabrication toolkit drafts (regenerate after schematic/PCB sync)
+PCB/production/
 
-# Local project settings
-*.kicad_prl
+# Older copies at the repository root; active KiCad project is under PCB/
+/devboard.kicad_sch
+/devboard.kicad_pcb
