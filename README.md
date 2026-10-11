@@ -1,2 +1,2 @@
 # Devboard
-idk a devboart
+idk a devboard
